@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.cokimutai.wikipediamobile.fragments.ExploreFragment
 import com.cokimutai.wikipediamobile.fragments.FavoritesFragment
 import com.cokimutai.wikipediamobile.fragments.HistoryFragment
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,6 +40,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        setSupportActionBar(toolbar)
+
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)

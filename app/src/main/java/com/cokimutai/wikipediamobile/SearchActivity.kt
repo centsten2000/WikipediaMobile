@@ -7,9 +7,9 @@ import android.os.Bundle
 import android.view.Menu
 
 import android.view.MenuItem
-//import androidx.appcompat.widget.SearchView
+import androidx.appcompat.widget.SearchView
 import com.cokimutai.wikipediamobile.R
-import android.widget.SearchView
+//import android.widget.SearchView
 import androidx.core.content.getSystemService
 import kotlinx.android.synthetic.main.activity_article_detail.*
 
